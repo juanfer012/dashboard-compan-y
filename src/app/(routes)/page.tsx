@@ -1,12 +1,11 @@
-
-import {CardSummary} from "./components/CardSummary/CardSummary";
+import { CardSummary } from "./components/CardSummary/CardSummary";
 import { BookOpenCheck, UsersRound, Waypoints } from "lucide-react";
 import { LastCustomers } from "./components/LastCustomers";
 import { SalesDistributor } from "./components/Salesdistributor";
 import { TotalSuscribers } from "./components/TotalSuscribers";
 import { ListIntegrations } from "./components/ListIntegrations";
 
-export const dataCardsSummary = [
+const dataCardsSummary = [
   {
     icon: UsersRound,
     total: "12.450",
