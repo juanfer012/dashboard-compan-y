@@ -4,7 +4,7 @@ import { CustomTooltip } from "@/components/CustomTooltip";
 import { cn } from "@/lib/utils";
 import { MoveDownRight, MoveUpRight, TrendingUp } from "lucide-react";
 
-export default function CardSummary(props: CardSummaryProps) {
+export function CardSummary(props: CardSummaryProps) {
   const { average, title, tooltipText, total, icon: Icon } = props;
   return (
     <div className="shadow-sm bg-background rounded-lg p-5 py-3 hover:shadow-lg transition">
