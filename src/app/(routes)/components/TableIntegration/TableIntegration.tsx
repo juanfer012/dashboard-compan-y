@@ -55,7 +55,7 @@ const data: TablaIntegrationsProps[] = [
   },
   {
     app: "Shopify",
-    icon: "/images/Shopify.png",
+    icon: "/images/shopify.png",
     type: "Marketplace",
     rate: 80,
     profit: 879.89,

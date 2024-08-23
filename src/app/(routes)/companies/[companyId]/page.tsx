@@ -3,6 +3,7 @@ import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
 import { Header } from "./components/Header";
 import { CompanyInformation } from "./components/CompanyInformation";
+import { FooterCompany } from "./components/FooterCompany";
 
 export default async function page({
   params,
@@ -29,6 +30,7 @@ export default async function page({
     <div>
       <Header />
       <CompanyInformation company={company} />
+      <FooterCompany companyId={company.id} />
     </div>
   );
 }

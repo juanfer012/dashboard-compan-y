@@ -46,6 +46,7 @@ export async function ListContacts(props: ListContactsProps) {
               </a>
             </div>
           </div>
+          <Separator className="my-3" />
         </div>
       ))}
     </div>
