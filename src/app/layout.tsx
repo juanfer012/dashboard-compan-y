@@ -4,6 +4,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
+import { auth } from "@clerk/nextjs/server";
 
 const noto = Noto_Sans_Display({ subsets: ["latin"] });
 

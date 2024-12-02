@@ -208,7 +208,7 @@ export function FormCreateCustomer(props: FormCreateCustomerProps) {
               )}
             />
           </div>
-          <Button type="submit" disabled={!isValid}>
+          <Button className="grid gap-5" type="submit" disabled={!isValid}>
             Submit
           </Button>
         </form>
